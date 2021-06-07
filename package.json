@@ -1,9 +1,24 @@
 {
   "name": "react-scroll-preserver",
   "version": "0.1.0",
-  "description": "Preserve scroll position while adding content to document.",
+  "description": "Preserve scroll position while adding content to React components.",
   "author": "Dawid Janiga <dawidjaniga@gmail.com> (https://dawidjaniga.pl)",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dawidjaniga/react-scroll-preserver.git"
+  },
+  "keywords": [
+    "react",
+    "scroll preserver",
+    "reverse infinite scroll",
+    "maintain scroll position"
+  ],
+  "files": ["package.json", "README.md", "build"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawidjaniga/react-scroll-preserver/issues"
+  },
+  "homepage": "https://github.com/dawidjaniga/react-scroll-preserver",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
